@@ -5,6 +5,6 @@ end
 
 def batch_badge_creator(array)
   array.each do |speaker|
-    message = badge_maker(name)
+    badge_maker(name)
   end
 end
