@@ -11,7 +11,9 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
-  array.each_with_index
+  array.each do |name|
+  room = array.each_with_index
+  
 end
 
 def printer
