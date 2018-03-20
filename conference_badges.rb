@@ -17,8 +17,9 @@ def assign_rooms(array)
     room = index + 1
     assignment = "Hello, #{name}! You'll be assigned to room #{room}!"
     new_array << assignment
-    return new_array
+
 end
+return new_array
 end
 end
 
