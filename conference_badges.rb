@@ -11,11 +11,12 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
+  new_array = []
   array.each do |name|
   array.each_with_index do |room, index|
     room = index + 1
     assignment = "Hello, #{name}! You'll be assigned to room #{room}!"
-    array[array.index(name)] = assignment
+    new_array.push(assignment)
 end
 end
 end
