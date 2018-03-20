@@ -6,7 +6,8 @@ end
 def batch_badge_creator(array)
   array.each do |name|
     message = badge_maker(name)
-return message
+      index = array.index(name)
+      array[index] = message
 
   end
 end
