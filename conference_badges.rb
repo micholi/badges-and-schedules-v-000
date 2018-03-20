@@ -9,3 +9,5 @@ def batch_badge_creator(array)
       array[array.index(name)] = message
   end
 end
+
+def assign_rooms
