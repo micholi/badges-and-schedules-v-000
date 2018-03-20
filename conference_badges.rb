@@ -19,8 +19,9 @@ def assign_rooms(array)
     new_array << assignment
 
 end
-return new_array
+
 end
+return new_array
 end
 
 def printer
