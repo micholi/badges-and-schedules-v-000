@@ -13,7 +13,8 @@ end
 def assign_rooms(array)
   array.each do |name|
   room = array.each_with_index
-  
+  "Hello, #{name}! You'll be assigned to room #{room}!"
+  "Hello, _____! You'll be assigned to room _____!"
 end
 
 def printer
