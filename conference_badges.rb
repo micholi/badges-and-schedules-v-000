@@ -4,8 +4,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  array.each do |name|
-    # speaker = name
+  array.each do |speaker|
+   speaker = name
       message = badge_maker(name)
       message
   end
