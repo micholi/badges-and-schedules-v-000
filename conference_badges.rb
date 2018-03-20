@@ -10,3 +10,4 @@ def batch_badge_creator(array)
         # array[index] = message
   end
 end
+end
