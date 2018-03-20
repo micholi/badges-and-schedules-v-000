@@ -24,12 +24,12 @@ def assign_rooms(array)
   end
 end
 
-def printer
-  badge_array = batch_badge_creator(array)
+def printer(attendees)
+  badge_array = batch_badge_creator(attendees)
     badge_array.each do |badge|
       puts badge
 
-  room_array = assign_rooms(array)
+  room_array = assign_rooms(attendees)
     room_array.each do |room|
       puts room
 end
